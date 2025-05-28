@@ -18,4 +18,5 @@ Use this information to trigger DR or failover scenarios might be cool.
 
 ---
 Side-Notes:
-Maybe change image types to lower size format, maybe .svg or something
+- Maybe change image types to lower size format, maybe .svg or something
+- Update personal confluence page with documentation
