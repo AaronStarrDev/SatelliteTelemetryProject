@@ -15,3 +15,7 @@ Investigate passive signal downlink with RTLSDR for capturing image data
 Bonus:
 Use some AI image interrupter (Like AWS Rekognition maybe) to infer meaningful insights from the images and data. Such as fire risk, flooding, etc.
 Use this information to trigger DR or failover scenarios might be cool. 
+
+---
+Side-Notes:
+Maybe change image types to lower size format, maybe .svg or something
