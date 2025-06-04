@@ -1,22 +1,17 @@
 # SatelliteTelemetryProject
 A project that I am doing to help better understand satellite telemetry, and building on it via steps to explore other technologies
 
-Step 1:
-PowerShell script to pull data from NOAA website for latest images. Maybe scheduled task to continuously do this
+---
 
-Step 2:
-Program Raspberry Pie to run PowerShell in Linux to grab data via an internet connection
-
-Step 3:
-Investigate passive signal downlink with RTLSDR for capturing image data
-(Require setting up personal antenna and reviewing satellite movement)
+Uses Google Vision API - Free trial version
 
 ---
-Bonus:
-Use some AI image interrupter (Like AWS Rekognition maybe) to infer meaningful insights from the images and data. Such as fire risk, flooding, etc.
-Use this information to trigger DR or failover scenarios might be cool. 
 
----
-Side-Notes:
-- Maybe change image types to lower size format, maybe .svg or something
-- Update personal confluence page with documentation
+Google Setup:
+1. Setup GCP free trial account
+2. In IAM & Admin > Service Accounts > Create Service Account > Viewer permissions (Google Vision API doesn't need much permission) > Set who can use the service account
+3. Click on the new service account > Keys > Add Key > should download a key (do not share the key, treat as a password)
+4. Download and setup gcloud api
+5. gcloud login: ```gcloud auth application-default login```
+6. Activate service account with key: ```gcloud auth activate-service-account --key-file="KEYLOCATION.json"```
+7. Run script, after getting token from gcloud in script. (Can prob do the api calls with a powershell module provided by Google)
