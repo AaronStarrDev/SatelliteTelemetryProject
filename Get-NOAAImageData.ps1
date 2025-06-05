@@ -16,6 +16,7 @@ foreach ($sector in $sectors)
     Invoke-WebRequest -Uri $url -OutFile $destination
 }
 
+# This is the limit of general AI from the vision API. I will need more data and another AI to parse more information
 # GET VISION API TO CHECK IT
 #& gcloud auth application-default set-quota-project glass-cedar-461416-s5
 #& gcloud config set billing/quota_project glass-cedar-461416-s5
