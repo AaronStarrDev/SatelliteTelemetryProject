@@ -615,11 +615,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\acs46\\Desktop\\Personal Projects\\MLNET\\ML.NET_Testing\\ML.NET_Testing.csproj",
+      "projectUniqueName": "C:\\Users\\acs46\\Desktop\\Personal Projects\\SatelliteTelemetryProject\\MLNET\\ML.NET_Testing\\ML.NET_Testing.csproj",
       "projectName": "ML.NET_Testing",
-      "projectPath": "C:\\Users\\acs46\\Desktop\\Personal Projects\\MLNET\\ML.NET_Testing\\ML.NET_Testing.csproj",
+      "projectPath": "C:\\Users\\acs46\\Desktop\\Personal Projects\\SatelliteTelemetryProject\\MLNET\\ML.NET_Testing\\ML.NET_Testing.csproj",
       "packagesPath": "C:\\Users\\acs46\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\acs46\\Desktop\\Personal Projects\\MLNET\\ML.NET_Testing\\obj\\",
+      "outputPath": "C:\\Users\\acs46\\Desktop\\Personal Projects\\SatelliteTelemetryProject\\MLNET\\ML.NET_Testing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

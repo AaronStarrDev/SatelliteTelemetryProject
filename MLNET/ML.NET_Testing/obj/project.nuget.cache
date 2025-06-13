@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8HZRapmdXjg=",
+  "dgSpecHash": "MWwIkibjOKI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\acs46\\Desktop\\Personal Projects\\MLNET\\ML.NET_Testing\\ML.NET_Testing.csproj",
+  "projectFilePath": "C:\\Users\\acs46\\Desktop\\Personal Projects\\SatelliteTelemetryProject\\MLNET\\ML.NET_Testing\\ML.NET_Testing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acs46\\.nuget\\packages\\microsoft.ml\\4.0.2\\microsoft.ml.4.0.2.nupkg.sha512",
     "C:\\Users\\acs46\\.nuget\\packages\\microsoft.ml.cpumath\\4.0.2\\microsoft.ml.cpumath.4.0.2.nupkg.sha512",
